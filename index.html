@@ -27,18 +27,6 @@
       width: 100%;
     }
 
-    .header-btn {
-        width: 30% !important;
-      }
-
-    .section-wrap {
-      padding-right: 20px !important;
-      padding-left: 20px !important;
-    }
-  }
-
-  /* 560px or smaller apply these styles */
-  @media only screen and (max-width: 579px) {
     .nav-left {
       width: 100% !important;
     }
@@ -55,7 +43,10 @@
     .logo-img {
       width: 120px !important;
     } 
+  }
 
+  /* 595px or smaller apply these styles */
+  @media only screen and (max-width: 595px) {
     .album-left {
       width: 100% !important;
     }
@@ -63,12 +54,47 @@
     .headline-3 {
       padding-top: 20px !important;
     }
+
+    .options-title {
+      width: 100% !important;
+      padding-bottom: 12px !important;
+    }
+
+    .options-link {
+      width: 100% !important;
+    }
+
+
   }
 
+  /* 560px or smaller apply these styles */
+  @media only screen and (max-width: 579px) {
+    .section-wrap {
+      padding-right: 20px !important;
+      padding-left: 20px !important;
+    }
+
+    .arrow-button {
+      width: 100% !important;
+    }
+
+    .arrow-content {
+      width: 100% !important;
+      text-align: center !important;
+      padding-top: 10px !important;
+    }
+
+    .footer-wrap {
+      padding-right: 10px !important;
+      padding-left: 10px !important;
+    }
+
+    
+  }
 
   </style>
-
 </head>
+
 <body style="background-color: #eef0f2; margin: 0; padding: 0;">
   <!--- START: email --->
   <tr>
@@ -82,7 +108,7 @@
       role="presentation">
         <!--- START: container --->
         <tr>
-          <td style="padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px;">
+          <td style="padding-top: 15px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px;">
             <table
             width="600"
             align="center"
@@ -93,7 +119,7 @@
             class="container">
               <!--- START: top row --->
               <tr>
-                <td style="background-color: #ffffff; padding-top: 50px; padding-right: 50px; padding-bottom: 1cqw; padding-left: 50px; border-radius: 8px 8px 0 0;" class="section-wrap">
+                <td style="background-color: #ffffff; padding-top: 50px; padding-right: 50px; padding-bottom: 40px; padding-left: 50px; border-radius: 8px 8px 0 0;" class="section-wrap">
                   <table
                   width="100%"
                   align="center"
@@ -282,7 +308,7 @@
 
               <!--- START: middle row --->
               <tr>
-                <td style="background-color: #ffffff; padding-top: 25px; padding-right: 50px; padding-bottom: 25px; padding-left: 50px; border-radius: 8px; border: 2px solid red;" class="section-wrap">
+                <td style="background-color: #ffffff; padding-top: 25px; padding-right: 50px; padding-bottom: 25px; padding-left: 50px; border-radius: 8px;" class="section-wrap">
                   <table
                   width="100%"
                   align="center"
@@ -445,7 +471,7 @@
 
                     <!--- START: button row 4 -->
                     <tr>
-                      <td style="padding-top: 10px; padding-right: 0px; padding-bottom: 5px; padding-left: 0;">
+                      <td style="padding-top: 10px; padding-right: 0px; padding-bottom: 25px; padding-left: 0;">
                         <table
                         width="100%"
                         align="center"
@@ -467,9 +493,9 @@
                     </tr>
                     <!--- END: button row 4 -->
 
-                    <!--- START: divider row 5 --->
+                    <!-- divider row 5 -->
                     <tr>
-                      <td style="padding-top: 25px; padding-right: 0; padding-bottom: 10px; padding-left: 0;">
+                      <td>
                         <table
                         width="100%"
                         align="left"
@@ -477,10 +503,12 @@
                         cellpadding="0"
                         cellspacing="0"
                         role="presentation"
-                        style="border-top: 1px solid #eef0f2;">
+                        style="border-top: 2px solid #f2f2f2;">
+
+                        </table>
                       </td>
                     </tr>
-                    <!--- END: divider row 5 --->
+                    <!-- divider row 5 -->
 
                     <!--- START: design header row 6 --->
                     <tr>
@@ -504,7 +532,7 @@
 
                     <!--- START: album cover row 8 --->
                     <tr>
-                      <td style="padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; border: 1px solid blue;">
+                      <td style="padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px;">
                         <table
                         width="100%"
                         align="center"
@@ -544,7 +572,7 @@
                                     <h3 style="font-size: 16px; font-family: Arial, Helvetica, sans-serif; padding: 14px 0px 10px; margin: 0px;" class="headline-3">
                                       Main Character Energy
                                     </h3>
-                                    <p style="font-size: 14px; font-family: Arial, Helvetica, sans-serif; padding: 10px 0px 20px; margin: 0px;">
+                                    <p style="font-size: 14px; font-family: Arial, Helvetica, sans-serif; padding: 10px 0px 20px; margin: 0px; line-height: 1.3;">
                                       Put some swagger in your step with these electrifying tracks.
                                     </p>
                                     <a href="#" style="font-size: 14px; font-family: Arial, Helvetica, sans-serif; padding: 10px 0px 5px; margin: 0px; text-decoration: none; color: #8B3DFF;">
@@ -565,7 +593,7 @@
 
                     <!--- START: album cover row 9 --->
                     <tr>
-                      <td style="padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; border: 1px solid blue;">
+                      <td style="padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px;">
                         <table
                         width="100%"
                         align="center"
@@ -605,7 +633,7 @@
                                     <h3 style="font-size: 16px; font-family: Arial, Helvetica, sans-serif; padding: 14px 0px 10px; margin: 0px;" class="headline-3">
                                       Aussie Essentials
                                     </h3>
-                                    <p style="font-size: 14px; font-family: Arial, Helvetica, sans-serif; padding: 10px 0px 20px; margin: 0px;">
+                                    <p style="font-size: 14px; font-family: Arial, Helvetica, sans-serif; padding: 10px 0px 20px; margin: 0px; line-height: 1.3;">
                                       The fresh hits that represent the best in Australian music.
                                     </p>
                                     <a href="#" style="font-size: 14px; font-family: Arial, Helvetica, sans-serif; padding: 10px 0px; margin: 0px; text-decoration: none; color: #8B3DFF;">
@@ -626,7 +654,7 @@
 
                     <!--- START: album cover row 10 --->
                     <tr>
-                      <td style="padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; border: 1px solid blue;">
+                      <td style="padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px;">
                         <table
                         width="100%"
                         align="center"
@@ -663,7 +691,7 @@
                               class="album-right">
                                 <tr>
                                   <td align="center">
-                                    <h3 style="font-size: 16px; font-family: Arial, Helvetica, sans-serif; padding: 14px 0px 10px; margin: 0px;" class="headline-3">
+                                    <h3 style="font-size: 16px; font-family: Arial, Helvetica, sans-serif; padding: 14px 0px 10px; margin: 0px; line-height: 1.3;" class="headline-3">
                                       Happy Holidays
                                     </h3>
                                     <p style="font-size: 14px; font-family: Arial, Helvetica, sans-serif; padding: 10px 0px 20px; margin: 0px;">
@@ -689,11 +717,301 @@
               </tr>
               <!--- END: middle row --->
 
-              
+              <!--- START: spacer row --->
+              <tr>
+                <td style="background-color: #eef0f2;">
+                  <table
+                  width="100%"
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation">
+                    <tr>
+                      <td style="padding: 10px;">
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!--- END: spacer row --->
 
-              
+              <!--- START: bottom row --->
+              <tr>
+                <td style="background-color: #ffffff; padding-top: 25px; padding-right: 50px; padding-bottom: 25px; padding-left: 50px; border-radius: 8px;" class="section-wrap" align="center">
+                  <table
+                  width="100%"
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation">
+                    <tr>
+                      <td>
+                        <!-- col left -->
+                        <table
+                        width="10%"
+                        align="left"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        class="arrow-button">
+                          <tr>
+                            <td align="center">
+                              <img src="img/arrow.png" alt="" width="40">
+                            </td>
+                          </tr>
+                        </table>
+                        <!-- /col left -->
+                        <!-- col right -->
+                        <table
+                        width="90%"
+                        align="left"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        class="arrow-content">
+                          <tr>
+                            <td style="padding-top: 0px; padding-right: 0; padding-bottom: 0; padding-left: 5px;">
+                              <p style="font-size: 14px; font-family: Arial, Helvetica, sans-serif; font-weight: 300; line-height: 1.5; margin: 0; padding: 0;">
+                                <a href="#" style="color: #8B3DFF;">Canva Design School</a> has thousands of free tutorials on how to design like a pro, explore design trends, color and more!
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <!-- col right -->
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!--- END: bottom row --->
 
-              
+              <!--- START: email row --->
+              <tr>
+                <td style="padding-top: 30px; padding-right: 50px; padding-bottom: 30px; padding-left: 50px; border-radius: 8px;" class="section-wrap footer-wrap">
+                  <table
+                  width="100%"
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation">
+                    <tr>
+                      <td align="center">
+                        <p style="text-align: center; font-size: 14px; font-family: Arial, Helvetica, sans-serif; font-weight: 300; color: #0D1217; margin: 0; padding: 0; line-height: 1.3;">
+                          You are receiving this email because you signed up to Canva.
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!--- END: email row --->
+
+              <!--- START: divider row --->
+              <tr>
+                <td>
+                  <table
+                  width="100%"
+                  align="left"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  style="border-top: 1px solid #cbd0d6;">
+
+                  </table>
+                </td>
+              </tr>
+              <!--- END: divider row --->
+
+              <!--- START: options row -->
+              <tr>
+                <td style="background-color: #eef0f2; padding-top: 30px; padding-right: 50px; padding-bottom: 30px; padding-left: 50px; border-radius: 8px;" class="section-wrap footer-wrap">
+                  <table
+                  width="100%"
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation">
+                    <tr>
+                      <td align="center">
+                        <!-- col left -->
+                        <table
+                        width="20%"
+                        align="left"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        class="options-title">
+                          <tr>
+                            <td align="center">
+                              <span style="color: #0D1217; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: 300;">
+                                Get Canva for:
+                              </span>
+                            </td>
+                          </tr>
+                        </table>
+                        <!-- /col left -->
+                        <!-- col right -->
+                        <table
+                        width="80%"
+                        align="left"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        class="options-link">
+                          <tr>
+                            <td align="center">
+                              <a href="#" style="text-align: center; color: #0D1217; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: 300;">iPhone</a>
+                            </td>
+                            <td style="background-color: #cbd0d6; width: 1px;">
+
+                            </td>
+                            <td align="center">
+                              <a href="#" style="text-align: center; color: #0D1217; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: 300;">iPad</a>
+                            </td>
+                            <td style="background-color: #cbd0d6; width: 1px;">
+
+                            </td>
+                            <td align="center">
+                              <a href="#" style="text-align: center; color: #0D1217; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: 300;">Android</a>
+                            </td>
+                            <td style="background-color: #cbd0d6; width: 1px;">
+
+                            </td>
+                            <td align="center">
+                              <a href="#" style="text-align: center; color: #0D1217; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: 300;">MAC</a>
+                            </td>
+                            <td style="background-color: #cbd0d6; width: 1px;">
+
+                            </td>
+                            <td align="center">
+                              <a href="#" style="text-align: center; color: #0D1217; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: 300;">Windows</a>
+                            </td>
+                          </tr>
+                        </table>
+                        <!-- /col right -->
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!--- END: options row  --->
+
+              <!--- START: divider row --->
+              <tr>
+                <td>
+                  <table
+                  width="100%"
+                  align="left"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  style="border-top: 1px solid #cbd0d6;">
+
+                  </table>
+                </td>
+              </tr>
+              <!--- END: divider row --->
+
+              <!--- START: address row  --->
+              <tr>
+                <td style="background-color: #eef0f2; padding-top: 30px; padding-right: 50px; padding-bottom: 15px; padding-left: 50px; border-radius: 8px;" class="section-wrap footer-wrap">
+                  <table
+                  width="100%"
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation">
+                    <tr>
+                      <td align="center">
+                        <p style="color: #0D1217; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: 300; text-align: center; line-height: 1.6; margin: 0; padding: 0;">
+                          This advertisement is made for you with love from Canva<br>Canva Pty Ltd, 110 Kippax St, NSW 2010, Australia. ABN 80 158 929 938<br>If you need assistance, get in touch with us via our Help Center.
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!--- END: address row  --->
+
+              <!--- START: social links --->
+              <tr>
+                <td style="background-color: #eef0f2; padding-top: 15px; padding-right: 50px; padding-bottom: 15px; padding-left: 50px; border-radius: 8px;" class="section-wrap footer-wrap">
+                  <table
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation">
+                    <tr>
+                      <td>
+                        <img src="img/facebook.png" alt="facebook logo" width="24px">
+                      </td>
+                      <td style="width: 16px;"></td>
+                      <td>
+                        <img src="img/twitter.png" alt="twitter logo" width="24px">
+                      </td>
+                      <td style="width: 16px;"></td>
+                      <td>
+                        <img src="img/pinterest.png" alt="pinterest logo" width="24px">
+                      </td>
+                      <td style="width: 16px;"></td>
+                      <td>
+                        <img src="img/instagram.png" alt="instagram logo" width="24px">
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!--- END: social links --->
+
+              <!--- START: footer links --->
+              <tr>
+                <td style="background-color: #eef0f2; padding-top: 15px; padding-right: 50px; padding-bottom: 15px; padding-left: 50px; border-radius: 8px;" class="section-wrap footer-wrap">
+                  <table
+                  width="100%"
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation">
+                    <tr>
+                      <td align="center">
+                        <span>
+                          <a href="#" style="color: #0D1217; font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 300; text-align: center; line-height: 1.6; margin: 0; padding: 0;">
+                            Visit canva.com
+                          </a>
+                        </span>
+                      </td>
+                      <td align="center">
+                        <span>
+                          <a href="#" style="color: #0D1217; font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 300; text-align: center; line-height: 1.6; margin: 0; padding: 0;">
+                            Message Preferences
+                          </a>
+                        </span>
+                      </td>
+                      <td align="center">
+                        <span>
+                          <a href="#" style="color: #0D1217; font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 300; text-align: center; line-height: 1.6; margin: 0; padding: 0;">
+                            Unsubscribe
+                          </a>
+                        </span>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <!--- END: footer links --->
               
             </table>
           </td>
